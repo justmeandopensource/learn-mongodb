@@ -78,7 +78,7 @@ mongo mongodb://192.168.1.81:50004
 ```
 rs.initiate(
   {
-    _id: "shard1rs",
+    _id: "shard2rs",
     members: [
       { _id : 0, host : "192.168.1.81:50004" },
       { _id : 1, host : "192.168.1.81:50005" },
