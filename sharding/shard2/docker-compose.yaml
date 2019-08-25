@@ -22,7 +22,7 @@ services:
       - shard2svr2:/data/db
 
   shard2svr3:
-    container_name: shard3svr3
+    container_name: shard2svr3
     image: mongo
     command: mongod --shardsvr --replSet shard2rs --port 27017 --dbpath /data/db
     ports:
