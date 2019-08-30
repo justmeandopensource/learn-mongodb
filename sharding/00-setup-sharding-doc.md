@@ -3,7 +3,7 @@
 ### Config servers
 Start config servers (3 member replica set)
 ```
-docker-compose -f config-servers/docker-compose.yaml up -d
+docker-compose -f config-server/docker-compose.yaml up -d
 ```
 Initiate replica set
 ```
